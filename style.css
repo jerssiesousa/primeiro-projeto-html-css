@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(rgb(217, 255, 251), #fff,rgb(217, 255, 251));
+    font-family: 'Courier New', Courier, monospace;
+}
+.photo{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 5px rgb(177, 177, 177);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
+}
+#title, .subtitle, .postTitle{
+    color: rgb(0, 39, 41);
+}
+#title{
+    font-size: 72px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(177, 177, 177);
+    text-transform: uppercase;
+
+}
+.subtitle{
+    margin: 5%;
+}
+.postTitle{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post {
+    background: rgba(237, 255, 251, 0.3);
+    padding: 15px;
+    border-left: 1px solid rgb(194, 255, 242);
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.postContent{
+    margin: 0;
+    margin-bottom: 15px;
+    
+}
+.postImage{
+    margin-bottom: 15px;
+    height: auto;
+    width: 100%;
+}
+a{
+    color: rgb(0, 39, 41);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    float: right;
+}
+a:hover{
+    text-decoration: line-through;
+}
+li {
+    list-style-type: none;
+    background-color: #fff;
+}
